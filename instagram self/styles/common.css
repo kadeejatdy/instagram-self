@@ -1,0 +1,18 @@
+.body{
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.round{
+    border: solid;
+    border-radius:50% ;
+}
+/*.yellow-border{
+    border: solid yellow ;
+}

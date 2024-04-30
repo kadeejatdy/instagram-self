@@ -1,0 +1,220 @@
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    border-right: gray solid 1px;
+    flex:0.2;
+    justify-content: flex-start;
+    
+}
+
+.side-bar .fas{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex:10;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    overflow: hidden;
+    
+    
+    
+}
+.status-bar{
+    display: flex;
+    flex-direction: row;
+    flex: 0.5;
+    justify-content:space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    align-items: center;
+   
+    
+}
+.status-bar-item{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding-right: 2px;
+    width: 50px;
+    overflow: hidden;
+    margin: 5px;
+    justify-content: center;  
+
+}
+
+.right-block{
+    display: flex;
+    flex-direction: column;
+    
+    flex:4;
+    margin-right: 5px;
+    
+
+
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    flex: 4;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: gray solid 2px;
+    
+
+   
+
+}
+.post-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    overflow: hidden;
+    
+    width: 100%;    
+}
+.post-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    
+}
+
+.post-title{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: space-between;
+    padding: 5px;
+    
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.user-image{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    margin-right: 2px;
+}
+.user-name{
+    align-items: center;
+    font-size: 10px;
+    justify-content: space-between;
+    
+    
+}
+.blue-tick{
+    background-color: blue;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 10px;
+    width: 10px;
+    font-size: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    
+    
+
+}
+.post-date{
+    align-items: center;
+    font-size: 10px;
+    justify-content: space-between;
+    padding-left: 3px;
+}
+.title-right{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.post-actions{
+    height: 20px;
+    justify-content: space-between;
+    margin: 3px;
+    align-items: center;
+    
+}
+.post-text-block{
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: white;
+    font-size: 8px;
+}
+.grey{
+    color: gray;
+}
+.add-comment{
+    justify-content: space-between;
+}
+.row-block{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 8px;
+    margin-bottom: 10px;
+
+}
+.row-left{
+    display: flex;
+    flex-direction: row;
+    
+    flex: 0.2;
+    overflow: hidden;
+    margin: 5px;
+
+}
+.row-center{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    font-weight: 400;
+    margin-top: 3px;
+
+
+}
+.row-right{
+    flex: 0.4;
+    color: blue;
+    font-weight: 400;
+}
+.suggession-row{
+    align-items: center;
+    margin-top: 10px;
+    font-size: 8px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    color: grey;
+}
+.suggession-row .see-all{
+    color: white;
+    font-weight: bold;
+    flex: 0.2;
+}
+.misc-block{
+    margin-bottom: 15px;
+    font-size: 8px;
+    color: grey;
+}
